@@ -1,5 +1,6 @@
 <!doctype>
 <head>
+<link rel="icon" href="http://localhost:3000/Icon.png">
 <style>
 body{
   background-color:goldenrod;
