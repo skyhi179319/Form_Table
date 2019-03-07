@@ -33,6 +33,7 @@ body{
 <th>Number</th>
 <th>Points</th>
 <th>Seed Points</th>
+<th>Region Points</th>
 </tr>
 <tr>
 <td>
@@ -58,6 +59,12 @@ echo $Points1;
 $Points1 = $_GET['number1'];
 $Seed1 = $Points1 / 5;
 echo $Seed1;
+?>
+</td>
+<td>
+<?php
+$Region1 = $Seed1 / 20;
+echo $Region1;
 ?>
 </td>
 </tr>
@@ -87,6 +94,12 @@ $Seed2 = $Points2 / 5;
 echo $Seed2;
 ?>
 </td>
+<td>
+<?php
+$Region2 = $Seed2 / 20;
+echo $Region2;
+?>
+</td>
 </tr>
 <tr>
 <td>
@@ -112,6 +125,12 @@ echo $Points3;
 $Points3 = $_GET['number3'];
 $Seed3 = $Points3 / 5;
 echo $Seed3;
+?>
+</td>
+<td>
+<?php
+$Region3 = $Seed3 / 20;
+echo $Region3;
 ?>
 </td>
 </tr>
@@ -141,6 +160,12 @@ $Seed4 = $Points4 / 5;
 echo $Seed4;
 ?>
 </td>
+<td>
+<?php
+$Region4 = $Seed4 / 20;
+echo $Region4;
+?>
+</td>
 </tr>
 <tr>
 <td>
@@ -166,6 +191,12 @@ echo $Points5;
 $Points5 = $_GET['number5'];
 $Seed5 = $Points5 / 5;
 echo $Seed5;
+?>
+</td>
+<td>
+<?php
+$Region5 = $Seed5 / 20;
+echo $Region5;
 ?>
 </td>
 </tr>
