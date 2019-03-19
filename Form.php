@@ -33,6 +33,34 @@ Points:
 <input name="number4" type="number">
 <input name="number5" type="number">
 </section>
+XP Total:
+<input name="XP1" type="number">
+<input name="XP2" type="number">
+<input name="XP3" type="number">
+<input name="XP4" type="number">
+<input name="XP5" type="number">
+</section>
+<section>
+Staring Rank:
+<input name="Start1" type="number">
+<input name="Start2" type="number">
+<input name="Start3" type="number">
+<input name="Start4" type="number">
+<input name="Start5" type="number">
+</section>
+<section>
+Rank Points:
+<input name="rank1" type="number">
+<input name="rank2" type="number">
+<input name="rank3" type="number">
+<input name="rank4" type="number">
+<input name="rank5" type="number">
+</section>
+<section>
+Guest:<input type="checkbox" name="guest">
+Staff:<input type="checkbox" name="staff">
+Skyler:<input type="checkbox" name="skyler">
+</section>
 <section>
 <input type="submit">
 </section>
